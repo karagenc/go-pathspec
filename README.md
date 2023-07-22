@@ -1,6 +1,6 @@
 # go-pathspec
 
-[![build](https://github.com/shibumi/go-pathspec/workflows/build/badge.svg)](https://github.com/shibumi/go-pathspec/actions?query=workflow%3Abuild)
+[![test](https://github.com/shibumi/go-pathspec/workflows/test/badge.svg)](https://github.com/shibumi/go-pathspec/actions?query=workflow%3Atest) [![Coverage Status](https://coveralls.io/repos/github/shibumi/go-pathspec/badge.svg)](https://coveralls.io/github/shibumi/go-pathspec) [![PkgGoDev](https://pkg.go.dev/badge/github.com/shibumi/go-pathspec)](https://pkg.go.dev/github.com/shibumi/go-pathspec)
 
 [![Coverage Status](https://coveralls.io/repos/github/shibumi/go-pathspec/badge.svg)](https://coveralls.io/github/shibumi/go-pathspec)
 
