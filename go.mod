@@ -1,3 +1,3 @@
-module github.com/shibumi/go-pathspec
+module github.com/tomruk/go-pathspec
 
 go 1.17

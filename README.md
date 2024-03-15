@@ -1,10 +1,6 @@
 # go-pathspec
 
-[![test](https://github.com/shibumi/go-pathspec/workflows/test/badge.svg)](https://github.com/shibumi/go-pathspec/actions?query=workflow%3Atest) [![Coverage Status](https://coveralls.io/repos/github/shibumi/go-pathspec/badge.svg)](https://coveralls.io/github/shibumi/go-pathspec) [![PkgGoDev](https://pkg.go.dev/badge/github.com/shibumi/go-pathspec)](https://pkg.go.dev/github.com/shibumi/go-pathspec)
-
-[![Coverage Status](https://coveralls.io/repos/github/shibumi/go-pathspec/badge.svg)](https://coveralls.io/github/shibumi/go-pathspec)
-
-[![PkgGoDev](https://pkg.go.dev/badge/github.com/shibumi/go-pathspec)](https://pkg.go.dev/github.com/shibumi/go-pathspec)
+[![test](https://github.com/tomruk/go-pathspec/workflows/test/badge.svg)](https://github.com/tomruk/go-pathspec/actions?query=workflow%3Atest) [![Coverage Status](https://coveralls.io/repos/github/tomruk/go-pathspec/badge.svg)](https://coveralls.io/github/tomruk/go-pathspec) [![PkgGoDev](https://pkg.go.dev/badge/github.com/tomruk/go-pathspec)](https://pkg.go.dev/github.com/tomruk/go-pathspec)
 
 go-pathspec is a library that implements gitignore-style pattern matching for paths and is fully compatible with Git's pathspec. Pathspec is a syntax used to specify a pattern for matching file paths in a command-line interface or a script.
 
@@ -12,10 +8,10 @@ As of writing, this is the only Go package that fully implements pathspec. For P
 
 ## Usage
 
-`go get github.com/shibumi/go-pathspec`
+`go get github.com/tomruk/go-pathspec`
 
 ```go
-import "github.com/shibumi/go-pathspec"
+import "github.com/tomruk/go-pathspec"
 
 p, _ := pathspec.FromLines(...)
 
@@ -58,6 +54,6 @@ err := filepath.WalkDir(path, func(path string, d fs.DirEntry, err error) error 
 
 ## Authors
 
+- tomruk (https://github.com/tomruk)
 - Sander van Harmelen (<sander@vanharmelen.nl>)
 - Christian Rebischke (<chris@shibumi.dev>)
-- tomruk (https://github.com/tomruk)
