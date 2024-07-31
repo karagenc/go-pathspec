@@ -1,9 +1,9 @@
 # go-pathspec
 
 <div align="left">
-    <a href="https://github.com/tomruk/go-pathspec/actions/workflows/tests.yml"><img src="https://github.com/tomruk/go-pathspec/actions/workflows/tests.yml/badge.svg"></img></a>
-    <a href="https://coveralls.io/github/tomruk/go-pathspec"><img src="https://coveralls.io/repos/github/tomruk/go-pathspec/badge.svg"></img></a>
-    <a href="https://pkg.go.dev/github.com/tomruk/go-pathspec"><img src="https://pkg.go.dev/badge/github.com/tomruk/go-pathspec"></img></a>
+    <a href="https://github.com/karagenc/go-pathspec/actions/workflows/tests.yml"><img src="https://github.com/karagenc/go-pathspec/actions/workflows/tests.yml/badge.svg"></img></a>
+    <a href="https://coveralls.io/github/karagenc/go-pathspec"><img src="https://coveralls.io/repos/github/karagenc/go-pathspec/badge.svg"></img></a>
+    <a href="https://pkg.go.dev/github.com/karagenc/go-pathspec"><img src="https://pkg.go.dev/badge/github.com/karagenc/go-pathspec"></img></a>
 </div><br>
 
 go-pathspec is a library that implements gitignore-style pattern matching for paths and is fully compatible with Git's pathspec. Pathspec is a syntax used to specify a pattern for matching file paths in a command-line interface or a script.
@@ -12,10 +12,10 @@ As of writing, this is the only Go package that fully implements pathspec. For P
 
 ## Usage
 
-`go get github.com/tomruk/go-pathspec`
+`go get github.com/karagenc/go-pathspec`
 
 ```go
-import "github.com/tomruk/go-pathspec"
+import "github.com/karagenc/go-pathspec"
 
 p, _ := pathspec.FromLines(...)
 
@@ -58,6 +58,6 @@ err := filepath.WalkDir(path, func(path string, d fs.DirEntry, err error) error 
 
 ## Authors
 
-- tomruk (https://github.com/tomruk)
+- karagenc (https://github.com/karagenc)
 - Sander van Harmelen (<sander@vanharmelen.nl>)
 - Christian Rebischke (<chris@shibumi.dev>)
